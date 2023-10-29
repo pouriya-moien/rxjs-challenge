@@ -33,7 +33,7 @@ scrollEvent$.subscribe((): void => {
 
 
 
-const data$ = fromFetch('https://jsonplaceholder.typicode.com/todos?_limit=4').pipe(
+const data$ = fromFetch('http://localhost:3000/articles').pipe(
     switchMap(response => {
         if (response.ok) {
             return response.json();
