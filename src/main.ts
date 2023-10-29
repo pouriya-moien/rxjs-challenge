@@ -1,5 +1,4 @@
 import { Observable, catchError, fromEvent, map, of, switchMap } from "rxjs";
-import { ajax } from 'rxjs/ajax';
 import { fromFetch } from 'rxjs/fetch';
 
 import { doctors } from "./models/doctors";
