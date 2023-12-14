@@ -1,4 +1,4 @@
-export interface doctors {
+export type doctors = {
     id: number,
     name: string,
     img: string,
